@@ -12,7 +12,7 @@ class CommandClass(mc_noodles.CommanderClass):
             {
                 'name': 'mode',
                 'datatype': 'boolean',
-                'flags': 'query, optional'
+                'flags': ['query', 'optional']
             }
         ]
 
