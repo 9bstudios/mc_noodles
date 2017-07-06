@@ -17,7 +17,7 @@ class CommandClass(mc_noodles.CommanderClass):
         ]
 
     def commander_execute(self, msg, flags):
-        mode = self.commander_arg_value(0)
+        mode = not self.commander_arg_value(0)
 
         fusion_items = modo.Scene().items('sdf.item')
 
