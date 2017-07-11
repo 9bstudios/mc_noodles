@@ -12,5 +12,6 @@ class CommandClass(mc_noodles.CommanderClass):
 
         for i in fusion_items:
             i.select()
+            lx.eval('itemList.find')
 
 lx.bless(CommandClass, 'noodles.selectAllFusionItems')
